@@ -1,0 +1,1 @@
+aggregate,blender,toaster,freezer,fridge-freezer,washing_machine,dishwasher,TV,microwave,food_processor,issues

@@ -1,0 +1,26 @@
+#project name
+project_name: Open-NILM
+
+# default hydra parameter values
+defaults:
+  - _self_
+  - appliance       : dishwasher           # place where appliance information is stored
+  - dataset         : refit                # place where dataset information is stored
+  - model           : cnn                  # place where model information is stored
+  - training        : default_train        # place where training parameters are stored
+  - callbacks       : callbacks            # place where training callback parameters are stored
+
+# directories for experimental results
+experiment_directories: [checkpoint, metrics, figures]
+# random seed
+random_seed: 9
+# gpu used
+gpu: '0'
+
+data:
+  # This is the base path for ALL raw datasets.
+  raw_path: data/
+  processed_path: data/processed/
+  training_file: training_.csv
+  validation_file: validation_.csv
+  test_file: test_.csv

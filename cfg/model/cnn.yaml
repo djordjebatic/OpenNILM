@@ -1,0 +1,6 @@
+name: cnn
+batch_size: 1024
+
+init:
+  _target_: src.models.cnn.CNN_NILM
+  input_window_length: 299

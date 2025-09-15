@@ -1,0 +1,7 @@
+name: qxai-nilm
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - cuda
+prefix: C:\Users\btb21202\Anaconda3\envs\qxai-nilm

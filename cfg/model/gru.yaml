@@ -1,0 +1,6 @@
+name: gru
+batch_size: 1200
+
+init:
+  _target_: src.models.gru.GRU_NILM
+  input_window_length: 199

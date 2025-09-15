@@ -1,0 +1,1 @@
+aggregate,TV,freezer,washing_machine,dishwasher,tumble_unknown,network,microwave,microwave_2,kettle,issues

@@ -1,0 +1,1 @@
+aggregate,fridge,chest_freezer,upright_freezer,washer_dryer,washing_machine,dishwasher,computer,TV,electric_heater,issues

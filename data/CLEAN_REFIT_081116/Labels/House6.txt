@@ -1,0 +1,1 @@
+aggregate,freezer,washing_machine,dishwasher,computer,TV,microwave,kettle,toaster,computer,issues

@@ -1,0 +1,50 @@
+name: plegma
+location: 'PlegmaDataset'
+sampling: '10s'
+
+split:
+  ac_1:
+    train             : [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13]
+    val               : [10]
+    test              : [2]
+  boiler:
+    train             : [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13]
+    val               : [10]
+    test              : [2]
+  washing_machine:
+    train             : [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13]
+    val               : [10]
+    test              : [2]
+
+aggregate:
+  ac_1:
+    mean              : 345.71 #348.44320055444314
+    std               : 723.03 #720.6510647332475
+  boiler:
+    mean              : 347.59 #307.5176603534345
+    std               : 745.19 #827.348620471804
+  washing_machine:
+    mean              : 344.4923608748837
+    std               : 731.6132455403795
+    #mean             : 339.8508019436363
+    #std              : 738.0483091923057
+
+  fridge:
+    mean              : 328.15979685575536
+    std               : 710.1635515683704
+
+threshold:
+  ac_1                : 50
+  boiler              : 50
+  washing_machine     : 50
+  fridge              : 50
+
+cutoff:
+  aggregate           : 10000
+  ac_1                : 2300
+  boiler              : 5000
+  washing_machine     : 2600
+  fridge              : 400
+  dishwasher          : 2200
+
+

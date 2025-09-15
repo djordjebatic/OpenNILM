@@ -1,0 +1,57 @@
+name: refit
+location: 'CLEAN_REFIT_081116'
+sampling: '8s'
+
+split:
+  washing_machine:
+    train                 : [2, 5, 7, 9, 15, 16, 17]
+    val                   : [18]
+    test                  : [8]
+  dishwasher:
+    train                 : [5, 7, 9, 13, 16]
+    val                   : [18]
+    test                  : [20]
+  kettle:
+    train                 : [3, 4, 6, 7, 8, 9, 12, 13, 19, 20]
+    val                   : [5]
+    test                  : [2]
+  microwave:
+    train                 : [10, 12, 19]
+    val                   : [17]
+    test                  : [4]
+  refrigerator:
+    train                 : [2, 5, 9]
+    val                   : [12]
+    test                  : [15]
+
+aggregate:
+  washing_machine:
+    mean                  : 512.30344412
+    std                   : 816.25221938
+  dishwasher:
+    mean                  : 602.5479766992502
+    std                   : 828.1060487606736
+  kettle:
+    mean                  : 500.1012921709225
+    std                   : 749.2437943779291
+  microwave:
+    mean                  : 489.55122864129567
+    std                   : 696.0943467973808
+  refrigerator:
+    mean                  : 600.1804355908282
+    std                   : 944.5461745567851
+
+threshold:
+  kettle                  : 2000
+  washing_machine         : 20
+  microwave               : 200
+  dishwasher              : 10
+  refrigerator            : 5
+
+cutoff:
+  aggregate               : 10000
+  kettle                  : 3000
+  washing_machine         : 2500
+  microwave               : 1300
+  dishwasher              : 2500
+  refrigerator            : 1700

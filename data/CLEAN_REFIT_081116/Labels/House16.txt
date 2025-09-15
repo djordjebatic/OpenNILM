@@ -1,0 +1,1 @@
+aggregate,fridge-freezer,fridge-freezer_2,electric_heater,electric_heater_2,washing_machine,dishwasher,computer,TV,dehumidifier,issues

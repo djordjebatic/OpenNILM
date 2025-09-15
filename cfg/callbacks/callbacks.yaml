@@ -1,0 +1,14 @@
+model_checkpoint:
+  save_weights_only: True
+  monitor: val_loss
+  mode: min
+  save_best_only: True
+
+early_stopping:
+  monitor: val_loss
+  patience: 6
+  min_delta: 1e-6
+  verbose: 1
+
+tensorboard:
+  update_freq: epoch

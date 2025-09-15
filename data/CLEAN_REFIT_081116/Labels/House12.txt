@@ -1,0 +1,1 @@
+aggregate,fridge-freezer,unknown,unknown,computer,microwave,kettle,toaster,TV,unknown,issues
